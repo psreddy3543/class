@@ -1,0 +1,14 @@
+alternatives --install /usr/bin/java java /opt/jdk1.8.0_311/bin/java 2
+alternatives --config java
+
+Java installation deatails
+
+export JAVA_HOME=/opt/jdk1.8.0_311
+export JRE_HOME=/opt/jdk1.8.0_311/jre
+export PATH=$PATH:/opt/jdk1.8.0_311/bin:/opt/jdk1.8.0_311/jre/bin
+
+
+Maven installation details
+
+export MAVEN_HOME=/opt/apache-maven-3.5.3
+export PATH=$PATH:/opt/apache-maven-3.5.3/bin
