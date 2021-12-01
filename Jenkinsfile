@@ -14,12 +14,4 @@ pipeline
       }
     }
   }
-   stage('Slack it')
-{
- steps
-  {
-    slackSend channel: '#employee', 
-                          message: 'Hello, world'
-            }
-        } 
-}
+  }
