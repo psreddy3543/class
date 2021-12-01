@@ -3,13 +3,13 @@ pipeline
   agent any
   stages
   {
-    stage('executing command')
+    stage ('executing command')
     {
       steps
       {
         sh 'touch abc.txt'
-        sh 'eho $JAVA_HOME'
-        sh 'eho $MAVEN_HOME'
+        sh 'echo $JAVA_HOME'
+        sh 'echo $MAVEN_HOME'
       }
     }
   }
